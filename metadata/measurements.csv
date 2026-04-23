@@ -1,0 +1,539 @@
+dataProduct,measurementID,measurement_name,units
+DP1.00001.001,wind_direction_elevational_variance,Wind Direction; Elevational Variance,degreesSquared
+DP1.00001.001,wind_direction_mean,Wind Direction; Mean,degree
+DP1.00001.001,wind_direction_temporal_variance,Wind Direction; Temporal Variance,degreesSquared
+DP1.00001.001,wind_speed_elevational_variance,Wind Speed; Elevational Variance,metersPerSecondSquared
+DP1.00001.001,wind_speed_maximum,Wind Speed; Maximum,metersPerSecond
+DP1.00001.001,wind_speed_mean,Wind Speed; Mean,metersPerSecond
+DP1.00001.001,wind_speed_minimum,Wind Speed; Minimum,metersPerSecond
+DP1.00001.001,wind_speed_temporal_variance,Wind Speed; Temporal Variance,metersPerSecondSquared
+DP1.00002.001,temperature_air_elevational_variance,Temperature; Air; Elevational Variance,celsiusSquared
+DP1.00002.001,temperature_air_maximum,Temperature; Air; Maximum,celsius
+DP1.00002.001,temperature_air_mean,Temperature; Air; Mean,celsius
+DP1.00002.001,temperature_air_minimum,Temperature; Air; Minimum,celsius
+DP1.00002.001,temperature_air_temporal_variance,Temperature; Air; Temporal Variance,celsiusSquared
+DP1.00004.001,barometric_pressure_maximum,Barometric Pressure; Maximum,kilopascal
+DP1.00004.001,barometric_pressure_mean,Barometric Pressure; Mean,kilopascal
+DP1.00004.001,barometric_pressure_minimum,Barometric Pressure; Minimum,kilopascal
+DP1.00004.001,barometric_pressure_temporal_variance,Barometric Pressure; Temporal Variance,kilopascalsSquared
+DP1.00005.001,temperature_infrared_elevational_variance,Temperature; Infrared; Elevational Variance,celsiusSquared
+DP1.00005.001,temperature_infrared_maximum,Temperature; Infrared; Maximum,celsius
+DP1.00005.001,temperature_infrared_mean,Temperature; Infrared; Mean,celsius
+DP1.00005.001,temperature_infrared_minimum,Temperature; Infrared; Minimum,celsius
+DP1.00005.001,temperature_infrared_temporal_variance,Temperature; Infrared; Temporal Variance,celsiusSquared
+DP1.00013.001,ammonium_concentration_precipitation,Ammonium Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,bromide_concentration_precipitation,Bromide Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,calcium_concentration_precipitation,Calcium Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,chloride_concentration_precipitation,Chloride Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,conductivity_precipitation,Conductivity; Precipitation,microsiemensPerCentimeter
+DP1.00013.001,magnesium_concentration_precipitation,Magnesium Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,nitrate_concentration_precipitation,Nitrate Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,ph_precipitation,pH; Precipitation,pH
+DP1.00013.001,phosphate_concentration_precipitation,Phosphate Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,potassium_concentration_precipitation,Potassium Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,sodium_concentration_precipitation,Sodium Concentration; Precipitation,milligramsPerLiter
+DP1.00013.001,sulfate_concentration_precipitation,Sulfate Concentration; Precipitation,milligramsPerLiter
+DP1.00017.001,particulate_matter_le_1_um_concentration,Particulate Matter ? 1 µm Concentration,milligramsPerCubicMeter
+DP1.00017.001,particulate_matter_le_10_um_concentration,Particulate Matter ? 10 µm Concentration,milligramsPerCubicMeter
+DP1.00017.001,particulate_matter_le_15_um_concentration,Particulate Matter ? 15 µm Concentration,milligramsPerCubicMeter
+DP1.00017.001,particulate_matter_le_25_um_concentration,Particulate Matter ? 2.5 µm Concentration,milligramsPerCubicMeter
+DP1.00017.001,particulate_matter_le_4_um_concentration,Particulate Matter ? 4 µm Concentration,milligramsPerCubicMeter
+DP1.00022.001,shortwave_radiation_incoming_maximum,Shortwave Radiation; Incoming; Maximum,wattsPerSquareMeter
+DP1.00022.001,shortwave_radiation_incoming_mean,Shortwave Radiation; Incoming; Mean,wattsPerSquareMeter
+DP1.00022.001,shortwave_radiation_incoming_minimum,Shortwave Radiation; Incoming; Minimum,wattsPerSquareMeter
+DP1.00022.001,shortwave_radiation_incoming_temporal_variance,Shortwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00023.001,longwave_radiation_incoming_maximum,Longwave Radiation; Incoming; Maximum,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_incoming_mean,Longwave Radiation; Incoming; Mean,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_incoming_minimum,Longwave Radiation; Incoming; Minimum,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_incoming_temporal_variance,Longwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00023.001,longwave_radiation_outgoing_maximum,Longwave Radiation; Outgoing; Maximum,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_outgoing_mean,Longwave Radiation; Outgoing; Mean,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_outgoing_minimum,Longwave Radiation; Outgoing; Minimum,wattsPerSquareMeter
+DP1.00023.001,longwave_radiation_outgoing_temporal_variance,Longwave Radiation; Outgoing; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00023.001,shortwave_radiation_incoming_maximum,Shortwave Radiation; Incoming; Maximum,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_incoming_mean,Shortwave Radiation; Incoming; Mean,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_incoming_minimum,Shortwave Radiation; Incoming; Minimum,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_incoming_temporal_variance,Shortwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00023.001,shortwave_radiation_outgoing_maximum,Shortwave Radiation; Outgoing; Maximum,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_outgoing_mean,Shortwave Radiation; Outgoing; Mean,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_outgoing_minimum,Shortwave Radiation; Outgoing; Minimum,wattsPerSquareMeter
+DP1.00023.001,shortwave_radiation_outgoing_temporal_variance,Shortwave Radiation; Outgoing; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00024.001,photosynthetically_active_radiation_incoming_elevational_variance,Photosynthetically Active Radiation; Incoming; Elevational Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.00024.001,photosynthetically_active_radiation_incoming_maximum,Photosynthetically Active Radiation; Incoming; Maximum,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_incoming_mean,Photosynthetically Active Radiation; Incoming; Mean,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_incoming_minimum,Photosynthetically Active Radiation; Incoming; Minimum,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_incoming_temporal_variance,Photosynthetically Active Radiation; Incoming; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.00024.001,photosynthetically_active_radiation_outgoing_elevational_variance,Photosynthetically Active Radiation; Outgoing; Elevational Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.00024.001,photosynthetically_active_radiation_outgoing_maximum,Photosynthetically Active Radiation; Outgoing; Maximum,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_outgoing_mean,Photosynthetically Active Radiation; Outgoing; Mean,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_outgoing_minimum,Photosynthetically Active Radiation; Outgoing; Minimum,micromolesPerSquareMeterPerSecond
+DP1.00024.001,photosynthetically_active_radiation_outgoing_temporal_variance,Photosynthetically Active Radiation; Outgoing; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.00038.001,18o16o_isotope_ratio_precipitation,18O:16O Isotope Ratio; Precipitation,permill
+DP1.00038.001,2h1h_isotope_ratio_precipitation,2H:1H Isotope Ratio; Precipitation,permill
+DP1.00040.001,heat_flux_soil_maximum,Heat Flux; Soil; Maximum,wattsPerSquareMeter
+DP1.00040.001,heat_flux_soil_mean,Heat Flux; Soil; Mean,wattsPerSquareMeter
+DP1.00040.001,heat_flux_soil_minimum,Heat Flux; Soil; Minimum,wattsPerSquareMeter
+DP1.00040.001,heat_flux_soil_temporal_variance,Heat Flux; Soil; Temporal Variance,wattsPerSquareMeterSquared
+DP1.00041.001,temperature_soil_elevational_variance,Temperature; Soil; Elevational Variance,celsiusSquared
+DP1.00041.001,temperature_soil_maximum,Temperature; Soil; Maximum,celsius
+DP1.00041.001,temperature_soil_mean,Temperature; Soil; Mean,celsius
+DP1.00041.001,temperature_soil_minimum,Temperature; Soil; Minimum,celsius
+DP1.00041.001,temperature_soil_temporal_variance,Temperature; Soil; Temporal Variance,celsiusSquared
+DP1.00066.001,photosynthetically_active_radiation_incoming_maximum,Photosynthetically Active Radiation; Incoming; Maximum,micromolesPerSquareMeterPerSecond
+DP1.00066.001,photosynthetically_active_radiation_incoming_mean,Photosynthetically Active Radiation; Incoming; Mean,micromolesPerSquareMeterPerSecond
+DP1.00066.001,photosynthetically_active_radiation_incoming_minimum,Photosynthetically Active Radiation; Incoming; Minimum,micromolesPerSquareMeterPerSecond
+DP1.00066.001,photosynthetically_active_radiation_incoming_temporal_variance,Photosynthetically Active Radiation; Incoming; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.00094.001,ion_content_salinity_soil_elevational_variance,Ion Content (Salinity); Soil; Elevational Variance,dimensionless
+DP1.00094.001,ion_content_salinity_soil_maximum,Ion Content (Salinity); Soil; Maximum,dimensionless
+DP1.00094.001,ion_content_salinity_soil_mean,Ion Content (Salinity); Soil; Mean,dimensionless
+DP1.00094.001,ion_content_salinity_soil_minimum,Ion Content (Salinity); Soil; Minimum,dimensionless
+DP1.00094.001,ion_content_salinity_soil_temporal_variance,Ion Content (Salinity); Soil; Temporal Variance,dimensionless
+DP1.00094.001,water_content_soil_elevational_variance,Water Content; Soil; Elevational Variance,cubicCentimetersPerCubicCentimeterSquared
+DP1.00094.001,water_content_soil_maximum,Water Content; Soil; Maximum,cubicCentimetersPerCubicCentimeter
+DP1.00094.001,water_content_soil_mean,Water Content; Soil; Mean,cubicCentimetersPerCubicCentimeter
+DP1.00094.001,water_content_soil_minimum,Water Content; Soil; Minimum,cubicCentimetersPerCubicCentimeter
+DP1.00094.001,water_content_soil_temporal_variance,Water Content; Soil; Temporal Variance,cubicCentimetersPerCubicCentimeterSquared
+DP1.00095.001,carbon_dioxide_concentration_soil_elevational_variance,Carbon Dioxide Concentration; Soil; Elevational Variance,partsPerMillionSquared
+DP1.00095.001,carbon_dioxide_concentration_soil_maximum,Carbon Dioxide Concentration; Soil; Maximum,partsPerMillion
+DP1.00095.001,carbon_dioxide_concentration_soil_mean,Carbon Dioxide Concentration; Soil; Mean,partsPerMillion
+DP1.00095.001,carbon_dioxide_concentration_soil_minimum,Carbon Dioxide Concentration; Soil; Minimum,partsPerMillion
+DP1.00095.001,carbon_dioxide_concentration_soil_temporal_variance,Carbon Dioxide Concentration; Soil; Temporal Variance,partsPerMillionSquared
+DP1.00098.001,humidity_maximum,Humidity; Maximum,percent
+DP1.00098.001,humidity_mean,Humidity; Mean,percent
+DP1.00098.001,humidity_minimum,Humidity; Minimum,percent
+DP1.00098.001,humidity_temporal_variance,Humidity; Temporal Variance,percentSquared
+DP1.00098.001,temperature_dew_or_frost_point_maximum,Temperature; Dew or Frost Point; Maximum,celsius
+DP1.00098.001,temperature_dew_or_frost_point_mean,Temperature; Dew or Frost Point; Mean,celsius
+DP1.00098.001,temperature_dew_or_frost_point_minimum,Temperature; Dew or Frost Point; Minimum,celsius
+DP1.00098.001,temperature_dew_or_frost_point_temporal_variance,Temperature; Dew or Frost Point; Temporal Variance,celsiusSquared
+DP1.10003.001,abundance_bird,Abundance; Bird,number
+DP1.10003.001,pielous_evenness_bird,Pielou's Evenness; Bird,dimensionless
+DP1.10003.001,shannon_diversity_bird,Shannon Diversity; Bird,dimensionless
+DP1.10003.001,species_rarity_bird,Species Rarity; Bird,dimensionless
+DP1.10003.001,species_richness_bird,Species Richness; Bird,species
+DP1.10010.001,abundance_downed_log,Abundance; Downed Log,number
+DP1.10010.001,downed_log_estimated_volume,Downed Log Estimated Volume,metersCubed
+DP1.10010.001,downed_log_mean_char_depth,Downed Log Mean Char Depth,centimeters?
+DP1.10010.001,downed_log_mean_char_extent,Downed Log Mean Char Extent,percent
+DP1.10010.001,downed_log_mean_decay_class,Downed Log Mean Decay Class,dimensionless
+DP1.10014.001,downed_log_mean_density,Downed Log Mean Density,gramsPerCubicCentimeter
+DP1.10014.001 | DP1.10010.001,biomass_density_downed_log,Biomass Density; Downed Log,kilogramsPerMetersSquared
+DP1.10022.001,abundance_ground_beetle,Abundance; Ground Beetle,number
+DP1.10022.001,pielous_evenness_ground_beetle,Pielou's Evenness; Ground Beetle,dimensionless
+DP1.10022.001,shannon_diversity_ground_beetle,Shannon Diversity; Ground Beetle,dimensionless
+DP1.10022.001,species_rarity_ground_beetle,Species Rarity; Ground Beetle,dimensionless
+DP1.10022.001,species_richness_ground_beetle,Species Richness; Ground Beetle,species
+DP1.10023.001,biomass_density_herbaceous_vegetation,Biomass Density; Herbaceous Vegetation,gramPerMetersSquared
+DP1.10023.001,mass_herbaceous_vegetation,Mass; Herbaceous Vegetation,gram
+DP1.10026.001,13c12c_isotope_ratio_sunlit_foliage,13C:12C Isotope Ratio; Sun-lit Foliage,permill
+DP1.10026.001,15n14n_isotope_ratio_sunlit_foliage,15N:14N Isotope Ratio; Sun-lit Foliage,permill
+DP1.10026.001,boron_concentration_sunlit_foliage,Boron Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,cn_ratio_sunlit_foliage,C:N Ratio; Sun-lit Foliage,NA
+DP1.10026.001,calcium_concentration_sunlit_foliage,Calcium Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,carbon_percentage_sunlit_foliage,Carbon Percentage; Sun-lit Foliage,percent
+DP1.10026.001,carotenoid_concentration_sunlit_foliage,Carotenoid Concentration; Sun-lit Foliage,microgramsPerMilliliter
+DP1.10026.001,cellulose_percentage_sunlit_foliage,Cellulose Percentage; Sun-lit Foliage,percent
+DP1.10026.001,chlorophyll_a_concentration_sunlit_foliage,Chlorophyll A Concentration; Sun-lit Foliage,microgramsPerMilliliter
+DP1.10026.001,chlorophyll_b_concentration_sunlit_foliage,Chlorophyll B Concentration; Sun-lit Foliage,microgramsPerMilliliter
+DP1.10026.001,copper_concentration_sunlit_foliage,Copper Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,iron_concentration_sunlit_foliage,Iron Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,leaf_mass_per_area_sunlit_foliage,Leaf Mass Per Area; Sun-lit Foliage,gramsPerSquareMeter
+DP1.10026.001,lignin_percentage_sunlit_foliage,Lignin Percentage; Sun-lit Foliage,percent
+DP1.10026.001,magnesium_concentration_sunlit_foliage,Magnesium Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,manganese_concentration_sunlit_foliage,Manganese Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,nitrogen_percentage_sunlit_foliage,Nitrogen Percentage; Sun-lit Foliage,percent
+DP1.10026.001,phosphorus_concentration_sunlit_foliage,Phosphorus Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,potassium_concentration_sunlit_foliage,Potassium Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,sulfur_concentration_sunlit_foliage,Sulfur Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10026.001,zinc_concentration_sunlit_foliage,Zinc Concentration; Sun-lit Foliage,milligramsPerKilogram
+DP1.10033.001,13c12c_isotope_ratio_litterfall,13C:12C Isotope Ratio; Litterfall,permill
+DP1.10033.001,15n14n_isotope_ratio_litterfall,15N:14N Isotope Ratio; Litterfall,permill
+DP1.10033.001,cn_ratio_litterfall,C:N Ratio; Litterfall,NA
+DP1.10033.001,carbon_percentage_litterfall,Carbon Percentage; Litterfall,percent
+DP1.10033.001,cellulose_percentage_litterfall,Cellulose Percentage; Litterfall,percent
+DP1.10033.001,lignin_percentage_litterfall,Lignin Percentage; Litterfall,percent
+DP1.10033.001,litterfall_average_rate,Litterfall Average Rate,gramPerDay
+DP1.10033.001,mass_litterfall,Mass; Litterfall,gram
+DP1.10033.001,nitrogen_percentage_litterfall,Nitrogen Percentage; Litterfall,percent
+DP1.10041.001,minimum_infection_rate_alphavirus_mosquito,Minimum Infection Rate; Alphavirus; Mosquito,infectionsPer1000Mosquitoes
+DP1.10041.001,minimum_infection_rate_flavivirus_mosquito,Minimum Infection Rate; Flavivirus; Mosquito,infectionsPer1000Mosquitoes
+DP1.10041.001,minimum_infection_rate_mosquito,Minimum Infection Rate; Mosquito,infectionsPer1000Mosquitoes
+DP1.10041.001,minimum_infection_rate_orthobunyavirus_mosquito,Minimum Infection Rate; Orthobunyavirus; Mosquito,infectionsPer1000Mosquitoes
+DP1.10043.001,abundance_mosquito,Abundance; Mosquito,number
+DP1.10043.001,mosquito_femalemale_ratio,Mosquito Female:Male Ratio,dimensionless
+DP1.10043.001,pielous_evenness_mosquito,Pielou's Evenness; Mosquito,dimensionless
+DP1.10043.001,shannon_diversity_mosquito,Shannon Diversity; Mosquito,dimensionless
+DP1.10043.001,species_rarity_mosquito,Species Rarity; Mosquito,dimensionless
+DP1.10043.001,species_richness_mosquito,Species Richness; Mosquito,species
+DP1.10055.001,intensity_terrestrial_plant_phenology_early_senescence,Intensity; Terrestrial Plant Phenology; Early Senescence,percent
+DP1.10055.001,intensity_terrestrial_plant_phenology_flowering,Intensity; Terrestrial Plant Phenology; Flowering,percent
+DP1.10055.001,intensity_terrestrial_plant_phenology_fruiting,Intensity; Terrestrial Plant Phenology; Fruiting,count
+DP1.10055.001,intensity_terrestrial_plant_phenology_leaf_development,Intensity; Terrestrial Plant Phenology; Leaf Development,dimensionless
+DP1.10055.001,intensity_terrestrial_plant_phenology_leaf_emergence,Intensity; Terrestrial Plant Phenology; Leaf Emergence,count
+DP1.10055.001,intensity_terrestrial_plant_phenology_peak_foliage,Intensity; Terrestrial Plant Phenology; Peak Foliage,percent
+DP1.10055.001,intensity_terrestrial_plant_phenology_ripe_fruit,Intensity; Terrestrial Plant Phenology; Ripe Fruit,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_early_senescence,Relative Percent Observation; Terrestrial Plant Phenology; Early Senescence,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_flowering,Relative Percent Observation; Terrestrial Plant Phenology; Flowering,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_fruiting,Relative Percent Observation; Terrestrial Plant Phenology; Fruiting,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_late_senescence,Relative Percent Observation; Terrestrial Plant Phenology; Late Senescence,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_leaf_development,Relative Percent Observation; Terrestrial Plant Phenology; Leaf Development,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_leaf_emergence,Relative Percent Observation; Terrestrial Plant Phenology; Leaf Emergence,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_peak_foliage,Relative Percent Observation; Terrestrial Plant Phenology; Peak Foliage,percent
+DP1.10055.001,relative_percent_observation_terrestrial_plant_phenology_ripe_fruit,Relative Percent Observation; Terrestrial Plant Phenology; Ripe Fruit,percent
+DP1.10058.001,abundance_terrestrial_plant,Abundance; Terrestrial Plant,number
+DP1.10058.001,pielous_evenness_terrestrial_plant,Pielou's Evenness; Terrestrial Plant,dimensionless
+DP1.10058.001,relative_percent_groundcover_biocrust_cyanobacteria,Relative Percent Groundcover; Biocrust Cyanobacteria,percent
+DP1.10058.001,relative_percent_groundcover_biocrust_lichen,Relative Percent Groundcover; Biocrust Lichen,percent
+DP1.10058.001,relative_percent_groundcover_biocrust_moss,Relative Percent Groundcover; Biocrust Moss,percent
+DP1.10058.001,relative_percent_groundcover_fungi,Relative Percent Groundcover; Fungi,percent
+DP1.10058.001,relative_percent_groundcover_lichen,Relative Percent Groundcover; Lichen,percent
+DP1.10058.001,relative_percent_groundcover_litter,Relative Percent Groundcover; Litter,percent
+DP1.10058.001,relative_percent_groundcover_moss,Relative Percent Groundcover; Moss,percent
+DP1.10058.001,relative_percent_groundcover_rock,Relative Percent Groundcover; Rock,percent
+DP1.10058.001,relative_percent_groundcover_soil,Relative Percent Groundcover; Soil,percent
+DP1.10058.001,relative_percent_groundcover_standing_dead,Relative Percent Groundcover; Standing Dead,percent
+DP1.10058.001,relative_percent_groundcover_terrestrial_plant,Relative Percent Groundcover; Terrestrial Plant,percent
+DP1.10058.001,relative_percent_groundcover_terrestrial_plant_invasive,Relative Percent Groundcover; Terrestrial Plant; Invasive,percent
+DP1.10058.001,relative_percent_groundcover_terrestrial_plant_native,Relative Percent Groundcover; Terrestrial Plant; Native,percent
+DP1.10058.001,relative_percent_groundcover_wood,Relative Percent Groundcover; Wood,percent
+DP1.10058.001,shannon_diversity_terrestrial_plant,Shannon Diversity; Terrestrial Plant,dimensionless
+DP1.10058.001,species_rarity_terrestrial_plant,Species Rarity; Terrestrial Plant,dimensionless
+DP1.10058.001,species_richness_terrestrial_plant,Species Richness; Terrestrial Plant,species
+DP1.10064.002,anaplasma_prevalence_small_mammal,Anaplasma Prevalence; Small Mammal,percent
+DP1.10064.002,babesia_prevalence_small_mammal,Babesia Prevalence; Small Mammal,percent
+DP1.10064.002,borrelia_prevalence_small_mammal,Borrelia Prevalence; Small Mammal,percent
+DP1.10064.002,ehrlichia_prevalence_small_mammal,Ehrlichia Prevalence; Small Mammal,percent
+DP1.10064.002,francisella_prevalence_small_mammal,Francisella Prevalence; Small Mammal,percent
+DP1.10064.002,pathogen_prevalence_small_mammal,Pathogen Prevalence; Small Mammal,percent
+DP1.10064.002,rickettsia_prevalence_small_mammal,Rickettsia Prevalence; Small Mammal,percent
+DP1.10067.001,13c12c_isotope_ratio_root,13C:12C Isotope Ratio; Root,permill
+DP1.10067.001,15n14n_isotope_ratio_root,15N:14N Isotope Ratio; Root,permill
+DP1.10067.001,biomass_density_root,Biomass Density; Root,gramsPerMeterSquared
+DP1.10067.001,cn_ratio_root,C:N Ratio; Root,NA
+DP1.10067.001,carbon_percentage_root,Carbon Percentage; Root,percent
+DP1.10067.001,nitrogen_percentage_root,Nitrogen Percentage; Root,percent
+DP1.10072.001,abundance_small_mammal,Abundance; Small Mammal,number
+DP1.10072.001,pielous_evenness_small_mammal,Pielou's Evenness; Small Mammal,dimensionless
+DP1.10072.001,shannon_diversity_small_mammal,Shannon Diversity; Small Mammal,dimensionless
+DP1.10072.001,species_rarity_small_mammal,Species Rarity; Small Mammal,dimensionless
+DP1.10072.001,species_richness_small_mammal,Species Richness; Small Mammal,species
+DP1.10086.001,13c12c_isotope_ratio_mineral_soil,13C:12C Isotope Ratio; Mineral Soil,permill
+DP1.10086.001,13c12c_isotope_ratio_organic_soil,13C:12C Isotope Ratio; Organic Soil,permill
+DP1.10086.001,15n14n_isotope_ratio_mineral_soil,15N:14N Isotope Ratio; Mineral Soil,permill
+DP1.10086.001,15n14n_isotope_ratio_organic_soil,15N:14N Isotope Ratio; Organic Soil,permill
+DP1.10086.001,cn_ratio_mineral_soil,C:N Ratio; Mineral Soil,NA
+DP1.10086.001,cn_ratio_organic_soil,C:N Ratio; Organic Soil,NA
+DP1.10086.001,carbon_percentage_mineral_soil,Carbon Percentage; Mineral Soil,percent
+DP1.10086.001,carbon_percentage_organic_soil,Carbon Percentage; Organic Soil,percent
+DP1.10086.001,moisture_mineral_soil,Moisture; Mineral Soil,gramsPerGram
+DP1.10086.001,moisture_organic_soil,Moisture; Organic Soil,gramsPerGram
+DP1.10086.001,nitrogen_percentage_mineral_soil,Nitrogen Percentage; Mineral Soil,percent
+DP1.10086.001,nitrogen_percentage_organic_soil,Nitrogen Percentage; Organic Soil,percent
+DP1.10086.001,ph_mineral_soil,pH; Mineral Soil,pH
+DP1.10086.001,ph_organic_soil,pH; Organic Soil,pH
+DP1.10092.001,anaplasma_prevalence_tick,Anaplasma Prevalence; Tick,percent
+DP1.10092.001,babesia_prevalence_tick,Babesia Prevalence; Tick,percent
+DP1.10092.001,borrelia_prevalence_tick,Borrelia Prevalence; Tick,percent
+DP1.10092.001,ehrlichia_prevalence_tick,Ehrlichia Prevalence; Tick,percent
+DP1.10092.001,francisella_prevalence_tick,Francisella Prevalence; Tick,percent
+DP1.10092.001,pathogen_prevalence_tick,Pathogen Prevalence; Tick,percent
+DP1.10092.001,rickettsia_prevalence_tick,Rickettsia Prevalence; Tick,percent
+DP1.10093.001,abundance_tick,Abundance; Tick,number
+DP1.10093.001,pielous_evenness_tick,Pielou's Evenness; Tick,dimensionless
+DP1.10093.001,shannon_diversity_tick,Shannon Diversity; Tick,dimensionless
+DP1.10093.001,species_rarity_tick,Species Rarity; Tick,dimensionless
+DP1.10093.001,species_richness_tick,Species Richness; Tick,species
+DP1.10098.001,biomass_density_terrestrial_plant_ferns,Biomass Density; Terrestrial Plant; Ferns,individualsPerMeterSquared
+DP1.10098.001,biomass_density_terrestrial_plant_liana,Biomass Density; Terrestrial Plant; Liana,individualsPerMeterSquared
+DP1.10098.001,biomass_density_terrestrial_plant_other_nonwoody,Biomass Density; Terrestrial Plant; Other Non-Woody,individualsPerMeterSquared
+DP1.10098.001,biomass_density_terrestrial_plant_shrubs,Biomass Density; Terrestrial Plant; Shrubs,individualsPerMeterSquared
+DP1.10098.001,biomass_density_terrestrial_plant_total,Biomass Density; Terrestrial Plant; Total,individualsPerMeterSquared
+DP1.10098.001,biomass_density_terrestrial_plant_trees,Biomass Density; Terrestrial Plant; Trees,individualsPerMeterSquared
+DP1.10098.001,crown_area_terrestrial_plant_other_nonwoody,Crown Area; Terrestrial Plant; Other Non-Woody,metersSquared
+DP1.10098.001,crown_area_terrestrial_plant_shrubs,Crown Area; Terrestrial Plant; Shrubs,metersSquared
+DP1.10098.001,crown_area_terrestrial_plant_trees,Crown Area; Terrestrial Plant; Trees,metersSquared
+DP1.10098.001,mean_crown_diameter_terrestrial_plant_other_nonwoody,Mean Crown Diameter; Terrestrial Plant; Other Non-Woody,meter
+DP1.10098.001,mean_crown_diameter_terrestrial_plant_shrubs,Mean Crown Diameter; Terrestrial Plant; Shrubs,meter
+DP1.10098.001,mean_crown_diameter_terrestrial_plant_total,Mean Crown Diameter; Terrestrial Plant; Total,meter
+DP1.10098.001,mean_crown_diameter_terrestrial_plant_trees,Mean Crown Diameter; Terrestrial Plant; Trees,meter
+DP1.10098.001,mean_height_terrestrial_plant_other_nonwoody,Mean Height; Terrestrial Plant; Other Non-Woody,meter
+DP1.10098.001,mean_height_terrestrial_plant_saplings,Mean Height; Terrestrial Plant; Saplings,meter
+DP1.10098.001,mean_height_terrestrial_plant_shrubs,Mean Height; Terrestrial Plant; Shrubs,meter
+DP1.10098.001,mean_height_terrestrial_plant_small_trees,Mean Height; Terrestrial Plant; Small Trees,meter
+DP1.10098.001,mean_height_terrestrial_plant_total,Mean Height; Terrestrial Plant; Total,meter
+DP1.10098.001,mean_height_terrestrial_plant_trees,Mean Height; Terrestrial Plant; Trees,meter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_liana,Mean Stem Diameter; Terrestrial Plant; Liana,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_other_nonwoody,Mean Stem Diameter; Terrestrial Plant; Other Non-Woody,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_saplings,Mean Stem Diameter; Terrestrial Plant; Saplings,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_shrubs,Mean Stem Diameter; Terrestrial Plant; Shrubs,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_small_trees,Mean Stem Diameter; Terrestrial Plant; Small Trees,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_total,Mean Stem Diameter; Terrestrial Plant; Total,centimeter
+DP1.10098.001,mean_stem_diameter_terrestrial_plant_trees,Mean Stem Diameter; Terrestrial Plant; Trees,centimeter
+DP1.10104.001,biomass_density_microbial_soil,Biomass Density; Microbial; Soil,nanomolesPerGram
+DP1.20004.001,barometric_pressure_maximum,Barometric Pressure; Maximum,kilopascal
+DP1.20004.001,barometric_pressure_mean,Barometric Pressure; Mean,kilopascal
+DP1.20004.001,barometric_pressure_minimum,Barometric Pressure; Minimum,kilopascal
+DP1.20004.001,barometric_pressure_temporal_variance,Barometric Pressure; Temporal Variance,kilopascalsSquared
+DP1.20015.001,specific_conductivity_temporal_variance_groundwater,Specific Conductivity Temporal Variance; Groundwater,microsiemensPerCentimeterSquared
+DP1.20015.001,specific_conductivity_maximum_groundwater,Specific Conductivity; Maximum; Groundwater,microsiemensPerCentimeter
+DP1.20015.001,specific_conductivity_mean_groundwater,Specific Conductivity; Mean; Groundwater,microsiemensPerCentimeter
+DP1.20015.001,specific_conductivity_minimum_groundwater,Specific Conductivity; Minimum; Groundwater,microsiemensPerCentimeter
+DP1.20016.001,elevation_maximum_surface_water,Elevation; Maximum; Surface Water,meter
+DP1.20016.001,elevation_mean_surface_water,Elevation; Mean; Surface Water,meter
+DP1.20016.001,elevation_minimum_surface_water,Elevation; Minimum; Surface Water,meter
+DP1.20016.001,elevation_temporal_variance_surface_water,Elevation; Temporal Variance; Surface Water,metersSquared
+DP1.20032.001,longwave_radiation_incoming_maximum,Longwave Radiation; Incoming; Maximum,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_incoming_mean,Longwave Radiation; Incoming; Mean,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_incoming_minimum,Longwave Radiation; Incoming; Minimum,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_incoming_temporal_variance,Longwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
+DP1.20032.001,longwave_radiation_outgoing_maximum,Longwave Radiation; Outgoing; Maximum,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_outgoing_mean,Longwave Radiation; Outgoing; Mean,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_outgoing_minimum,Longwave Radiation; Outgoing; Minimum,wattsPerSquareMeter
+DP1.20032.001,longwave_radiation_outgoing_temporal_variance,Longwave Radiation; Outgoing; Temporal Variance,wattsPerSquareMeterSquared
+DP1.20032.001,shortwave_radiation_incoming_maximum,Shortwave Radiation; Incoming; Maximum,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_incoming_mean,Shortwave Radiation; Incoming; Mean,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_incoming_minimum,Shortwave Radiation; Incoming; Minimum,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_incoming_temporal_variance,Shortwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
+DP1.20032.001,shortwave_radiation_outgoing_maximum,Shortwave Radiation; Outgoing; Maximum,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_outgoing_mean,Shortwave Radiation; Outgoing; Mean,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_outgoing_minimum,Shortwave Radiation; Outgoing; Minimum,wattsPerSquareMeter
+DP1.20032.001,shortwave_radiation_outgoing_temporal_variance,Shortwave Radiation; Outgoing; Temporal Variance,wattsPerSquareMeterSquared
+DP1.20033.001,nitrate_concentration_temporal_variance_surface_water,Nitrate Concentration Temporal Variance; Surface Water,micromolesPerLiter
+DP1.20033.001,nitrate_concentration_maximum_surface_water,Nitrate Concentration; Maximum; Surface Water,micromolesPerLiter
+DP1.20033.001,nitrate_concentration_mean_surface_water,Nitrate Concentration; Mean; Surface Water,micromolesPerLiter
+DP1.20033.001,nitrate_concentration_minimum_surface_water,Nitrate Concentration; Minimum; Surface Water,micromolesPerLiter
+DP1.20042.001,photosynthetically_active_radiation_incoming_above_water_maximum,Photosynthetically Active Radiation; Incoming; Above Water; Maximum,micromolesPerSquareMeterPerSecond
+DP1.20042.001,photosynthetically_active_radiation_incoming_above_water_mean,Photosynthetically Active Radiation; Incoming; Above Water; Mean,micromolesPerSquareMeterPerSecond
+DP1.20042.001,photosynthetically_active_radiation_incoming_above_water_minimum,Photosynthetically Active Radiation; Incoming; Above Water; Minimum,micromolesPerSquareMeterPerSecond
+DP1.20042.001,photosynthetically_active_radiation_incoming_above_water_temporal_variance,Photosynthetically Active Radiation; Incoming; Above Water; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.20054.001,temperature_surface_water_maximum,Temperature; Surface Water; Maximum,celsius
+DP1.20054.001,temperature_surface_water_mean,Temperature; Surface Water; Mean,celsius
+DP1.20054.001,temperature_surface_water_minimum,Temperature; Surface Water; Minimum,celsius
+DP1.20054.001,temperature_surface_water_temporal_variance,Temperature; Surface Water; Temporal Variance,celsiusSquared
+DP1.20059.001,wind_direction_mean,Wind Direction; Mean,degree
+DP1.20059.001,wind_direction_temporal_variance,Wind Direction; Temporal Variance,degreesSquared
+DP1.20059.001,wind_speed_maximum,Wind Speed; Maximum,metersPerSecond
+DP1.20059.001,wind_speed_mean,Wind Speed; Mean,metersPerSecond
+DP1.20059.001,wind_speed_minimum,Wind Speed; Minimum,metersPerSecond
+DP1.20059.001,wind_speed_temporal_variance,Wind Speed; Temporal Variance,metersPerSecondSquared
+DP1.20063.001,13c12c_isotope_ratio_aquatic_plant,13C:12C Isotope Ratio; Aquatic Plant,perMill
+DP1.20063.001,15n14n_isotope_ratio_aquatic_plant,15N:14N Isotope Ratio; Aquatic Plant,perMill
+DP1.20063.001,cn_ratio_aquatic_plant,C:N Ratio; Aquatic Plant,NA
+DP1.20063.001,carbon_percentage_aquatic_plant,Carbon Percentage; Aquatic Plant,percent
+DP1.20063.001,nitrogen_percentage_aquatic_plant,Nitrogen Percentage; Aquatic Plant,percent
+DP1.20066.001,biomass_aquatic_plant,Biomass; Aquatic Plant,gramsPerSquareMeter
+DP1.20066.001,pielous_evenness_aquatic_plant,Pielou's Evenness; Aquatic Plant,dimensionless
+DP1.20066.001,shannon_diversity_aquatic_plant,Shannon Diversity; Aquatic Plant,dimensionless
+DP1.20066.001,species_rarity_aquatic_plant,Species Rarity; Aquatic Plant,dimensionless
+DP1.20066.001,species_richness_aquatic_plant,Species Richness; Aquatic Plant,species
+DP1.20072.001,relative_percent_groundcover_aquatic_plant,Relative Percent Groundcover; Aquatic Plant,percent
+DP1.20092.001,acid_neutralising_capacity_groundwater,Acid Neutralising Capacity; Groundwater,milliequivalentsPerLiter
+DP1.20092.001,alkalinity_groundwater,Alkalinity; Groundwater,milliequivalentsPerLiter
+DP1.20092.001,ammonium_concentration_groundwater,Ammonium Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,bromide_concentration_groundwater,Bromide Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,calcium_concentration_groundwater,Calcium Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,carbon_concentration_inorganic_dissolved_groundwater,Carbon Concentration; Inorganic; Dissolved; Groundwater,milligramsPerLiter
+DP1.20092.001,carbon_concentration_organic_dissolved_groundwater,Carbon Concentration; Organic; Dissolved; Groundwater,milligramsPerLiter
+DP1.20092.001,carbon_concentration_organic_groundwater,Carbon Concentration; Organic; Groundwater,milligramsPerLiter
+DP1.20092.001,chloride_concentration_groundwater,Chloride Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,fluoride_concentration_groundwater,Fluoride Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,iron_concentration_groundwater,Iron Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,magnesium_concentration_groundwater,Magnesium Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,manganese_concentration_groundwater,Manganese Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,nitrate_and_nitrite_concentration_groundwater,Nitrate & Nitrite Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,nitrite_concentration_groundwater,Nitrite Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,nitrogen_concentration_dissolved_groundwater,Nitrogen Concentration; Dissolved; Groundwater,milligramsPerLiter
+DP1.20092.001,nitrogen_concentration_groundwater,Nitrogen Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,orthophosphate_concentration_groundwater,Orthophosphate Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,phosphorus_concentration_dissolved_groundwater,Phosphorus Concentration; Dissolved; Groundwater,milligramsPerLiter
+DP1.20092.001,phosphorus_concentration_groundwater,Phosphorus Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,potassium_concentration_groundwater,Potassium Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,silica_concentration_groundwater,Silica Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,sodium_concentration_groundwater,Sodium Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,solids_concentration_dissolved_groundwater,Solids Concentration; Dissolved; Groundwater,milligramsPerLiter
+DP1.20092.001,sulfate_concentration_groundwater,Sulfate Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,suspended_solids_concentration_groundwater,Suspended Solids Concentration; Groundwater,milligramsPerLiter
+DP1.20092.001,uv_absorbance_254_nm_groundwater,UV Absorbance (254 nm); Groundwater,absorbance units
+DP1.20092.001,uv_absorbance_280_nm_groundwater,UV Absorbance (280 nm); Groundwater,absorbance units
+DP1.20093.001,acid_neutralising_capacity_surface_water,Acid Neutralising Capacity; Surface Water,milliequivalentsPerLiter
+DP1.20093.001,alkalinity_surface_water,Alkalinity; Surface Water,milliequivalentsPerLiter
+DP1.20093.001,ammonium_concentration_surface_water,Ammonium Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,bromide_concentration_surface_water,Bromide Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,calcium_concentration_surface_water,Calcium Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,carbon_concentration_inorganic_dissolved_surface_water,Carbon Concentration; Inorganic; Dissolved; Surface Water,milligramsPerLiter
+DP1.20093.001,carbon_concentration_organic_dissolved_surface_water,Carbon Concentration; Organic; Dissolved; Surface Water,milligramsPerLiter
+DP1.20093.001,carbon_concentration_organic_surface_water,Carbon Concentration; Organic; Surface Water,milligramsPerLiter
+DP1.20093.001,chloride_concentration_surface_water,Chloride Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,fluoride_concentration_surface_water,Fluoride Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,iron_concentration_surface_water,Iron Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,magnesium_concentration_surface_water,Magnesium Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,manganese_concentration_surface_water,Manganese Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,nitrate_and_nitrite_concentration_surface_water,Nitrate & Nitrite Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,nitrite_concentration_surface_water,Nitrite Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,nitrogen_concentration_dissolved_surface_water,Nitrogen Concentration; Dissolved; Surface Water,milligramsPerLiter
+DP1.20093.001,nitrogen_concentration_surface_water,Nitrogen Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,orthophosphate_concentration_surface_water,Orthophosphate Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,phosphorus_concentration_dissolved_surface_water,Phosphorus Concentration; Dissolved; Surface Water,milligramsPerLiter
+DP1.20093.001,phosphorus_concentration_surface_water,Phosphorus Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,potassium_concentration_surface_water,Potassium Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,silica_concentration_surface_water,Silica Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,sodium_concentration_surface_water,Sodium Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,solids_concentration_dissolved_surface_water,Solids Concentration; Dissolved; Surface Water,milligramsPerLiter
+DP1.20093.001,sulfate_concentration_surface_water,Sulfate Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,suspended_solids_concentration_surface_water,Suspended Solids Concentration; Surface Water,milligramsPerLiter
+DP1.20093.001,uv_absorbance_254_nm_surface_water,UV Absorbance (254 nm); Surface Water,absorbance units
+DP1.20093.001,uv_absorbance_280_nm_surface_water,UV Absorbance (280 nm); Surface Water,absorbance units
+DP1.20097.001,carbon_dioxide_concentration_surface_water,Carbon Dioxide Concentration; Surface Water,partsPerMillionVolumetric
+DP1.20097.001,methane_concentration_surface_water,Methane Concentration; Surface Water,partsPerMillionVolumetric
+DP1.20097.001,nitrous_oxide_concentration_surface_water,Nitrous Oxide Concentration; Surface Water,partsPerMillionVolumetric
+DP1.20099.001,permafrost_thawed_layer_depth_variability,Permafrost Thawed Layer Depth Variability,meter
+DP1.20099.001,permafrost_thawed_layer_mean_thickness,Permafrost Thawed Layer Mean Thickness,meter
+DP1.20099.001,permafrost_water_table_depth,Permafrost Water Table Depth,meter
+DP1.20099.001,permafrost_water_table_thickness,Permafrost Water Table Thickness,meter
+DP1.20100.001,elevation_maximum_groundwater,Elevation; Maximum; Groundwater,meter
+DP1.20100.001,elevation_mean_groundwater,Elevation; Mean; Groundwater,meter
+DP1.20100.001,elevation_minimum_groundwater,Elevation; Minimum; Groundwater,meter
+DP1.20100.001,elevation_temporal_variance_groundwater,Elevation; Temporal Variance; Groundwater,metersSquared
+DP1.20107.001,abundance_fish,Abundance; Fish,number
+DP1.20107.001,biomass_density_fish,Biomass Density; Fish,gramsPerSquareMeter
+DP1.20107.001,fish_mean_length,Fish Mean Length,millimeter
+DP1.20107.001,fish_mean_weight,Fish Mean Weight,gram
+DP1.20107.001,pielous_evenness_fish,Pielou's Evenness; Fish,dimensionless
+DP1.20107.001,shannon_diversity_fish,Shannon Diversity; Fish,dimensionless
+DP1.20107.001,species_rarity_fish,Species Rarity; Fish,dimensionless
+DP1.20107.001,species_richness_fish,Species Richness; Fish,species
+DP1.20120.001,abundance_aquatic_macroinvertebrate,Abundance; Aquatic Macroinvertebrate,numberPerMetersSquared
+DP1.20120.001,pielous_evenness_aquatic_macroinvertebrate,Pielou's Evenness; Aquatic Macroinvertebrate,dimensionless
+DP1.20120.001,shannon_diversity_aquatic_macroinvertebrate,Shannon Diversity; Aquatic Macroinvertebrate,dimensionless
+DP1.20120.001,species_rarity_aquatic_macroinvertebrate,Species Rarity; Aquatic Macroinvertebrate,dimensionless
+DP1.20120.001,species_richness_aquatic_macroinvertebrate,Species Richness; Aquatic Macroinvertebrate,species
+DP1.20138.001,abundance_microbial_surface_water,Abundance; Microbial; Surface Water,numberPerMilliliter
+DP1.20163.001,13c12c_isotope_ratio_microalgae_aquatic_biofilm,13C:12C Isotope Ratio; Microalgae; Aquatic Biofilm,perMill
+DP1.20163.001,13c12c_isotope_ratio_microalgae_water_column,13C:12C Isotope Ratio; Microalgae; Water Column,perMill
+DP1.20163.001,15n14n_isotope_ratio_microalgae_aquatic_biofilm,15N:14N Isotope Ratio; Microalgae; Aquatic Biofilm,perMill
+DP1.20163.001,15n14n_isotope_ratio_microalgae_water_column,15N:14N Isotope Ratio; Microalgae; Water Column,perMill
+DP1.20163.001,34s32s_isotope_ratio_microalgae_aquatic_biofilm,34S:32S Isotope Ratio; Microalgae; Aquatic Biofilm,perMill
+DP1.20163.001,34s32s_isotope_ratio_microalgae_water_column,34S:32S Isotope Ratio; Microalgae; Water Column,perMill
+DP1.20163.001,carbon_concentration_microalgae_aquatic_biofilm,Carbon Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,carbon_concentration_microalgae_water_column,Carbon Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20163.001,chlorophyll_a_concentration_microalgae_aquatic_biofilm,Chlorophyll A Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,chlorophyll_a_concentration_microalgae_water_column,Chlorophyll A Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20163.001,nitrogen_concentration_microalgae_aquatic_biofilm,Nitrogen Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,nitrogen_concentration_microalgae_water_column,Nitrogen Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20163.001,pheophytin_concentration_microalgae_aquatic_biofilm,Pheophytin Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,pheophytin_concentration_microalgae_water_column,Pheophytin Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20163.001,phosphorus_concentration_microalgae_aquatic_biofilm,Phosphorus Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,phosphorus_concentration_microalgae_water_column,Phosphorus Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20163.001,sulfur_concentration_microalgae_aquatic_biofilm,Sulfur Concentration; Microalgae; Aquatic Biofilm,microgramsPerLiter
+DP1.20163.001,sulfur_concentration_microalgae_water_column,Sulfur Concentration; Microalgae; Water Column,microgramsPerLiter
+DP1.20166.001,biomass_density_microalgae_aquatic_biofilm,Biomass Density; Microalgae; Aquatic Biofilm,gramPerMilliliter
+DP1.20166.001,biomass_density_microalgae_water_column,Biomass Density; Microalgae; Water Column,gramPerMilliliter
+DP1.20166.001,pielous_evenness_microalgae_aquatic_biofilm,Pielou's Evenness; Microalgae; Aquatic Biofilm,dimensionless
+DP1.20166.001,pielous_evenness_microalgae_water_column,Pielou's Evenness; Microalgae; Water Column,dimensionless
+DP1.20166.001,shannon_diversity_microalgae_aquatic_biofilm,Shannon Diversity; Microalgae; Aquatic Biofilm,dimensionless
+DP1.20166.001,shannon_diversity_microalgae_water_column,Shannon Diversity; Microalgae; Water Column,dimensionless
+DP1.20166.001,species_rarity_microalgae_aquatic_biofilm,Species Rarity; Microalgae; Aquatic Biofilm,dimensionless
+DP1.20166.001,species_rarity_microalgae_water_column,Species Rarity; Microalgae; Water Column,dimensionless
+DP1.20166.001,species_richness_microalgae_aquatic_biofilm,Species Richness; Microalgae; Aquatic Biofilm,species
+DP1.20166.001,species_richness_microalgae_water_column,Species Richness; Microalgae; Water Column,species
+DP1.20191.001,aquatic_overchannel_canopy_cover_percentage,Aquatic Over-Channel Canopy Cover Percentage,percent
+DP1.20194.001,alkalinity_aquatic_sediment,Alkalinity; Aquatic Sediment,milligramsPerLiter
+DP1.20194.001,aluminum_concentration_aquatic_sediment,Aluminum Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,antimony_concentration_aquatic_sediment,Antimony Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,barium_concentration_aquatic_sediment,Barium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,beryllium_concentration_aquatic_sediment,Beryllium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,bicarbonate_concentration_aquatic_sediment,Bicarbonate Concentration; Aquatic Sediment,milligramsPerLiter
+DP1.20194.001,cadmium_concentration_aquatic_sediment,Cadmium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,calcium_concentration_aquatic_sediment,Calcium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,carbon_percentage_aquatic_sediment,Carbon Percentage; Aquatic Sediment,percent
+DP1.20194.001,carbon_percentage_organic_aquatic_sediment,Carbon Percentage; Organic; Aquatic Sediment,percent
+DP1.20194.001,carbonate_concentration_aquatic_sediment,Carbonate Concentration; Aquatic Sediment,milligramsPerLiter
+DP1.20194.001,chromium_concentration_aquatic_sediment,Chromium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,conductivity_aquatic_sediment,Conductivity; Aquatic Sediment,millimhosPerCentimeter
+DP1.20194.001,copper_concentration_aquatic_sediment,Copper Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,fraction_aquatic_sediment_clay,Fraction; Aquatic Sediment; Clay,percent
+DP1.20194.001,fraction_aquatic_sediment_sand,Fraction; Aquatic Sediment; Sand,percent
+DP1.20194.001,fraction_aquatic_sediment_silt,Fraction; Aquatic Sediment; Silt,percent
+DP1.20194.001,hydroxide_concentration_aquatic_sediment,Hydroxide Concentration; Aquatic Sediment,milligramsPerLiter
+DP1.20194.001,iron_concentration_aquatic_sediment,Iron Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,lead_concentration_aquatic_sediment,Lead Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,magnesium_concentration_aquatic_sediment,Magnesium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,manganese_concentration_aquatic_sediment,Manganese Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,mercury_concentration_aquatic_sediment,Mercury Concentration; Aquatic Sediment,nanogramPerGram
+DP1.20194.001,molybdenum_concentration_aquatic_sediment,Molybdenum Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,nickel_concentration_aquatic_sediment,Nickel Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,nitrogen_concentration_as_ammonium_aquatic_sediment,Nitrogen Concentration; as Ammonium; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,nitrogen_concentration_as_nitrate_aquatic_sediment,Nitrogen Concentration; as Nitrate; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,nitrogen_concentration_as_nitrite_aquatic_sediment,Nitrogen Concentration; as Nitrite; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,nitrogen_percentage_aquatic_sediment,Nitrogen Percentage; Aquatic Sediment,percent
+DP1.20194.001,percentage_coarser_than_2_mm_aquatic_sediment,Percentage Coarser than 2 mm; Aquatic Sediment,percent
+DP1.20194.001,percentage_finer_than_2_mm_aquatic_sediment,Percentage Finer than 2 mm; Aquatic Sediment,percent
+DP1.20194.001,ph_aquatic_sediment,pH; Aquatic Sediment,pH
+DP1.20194.001,phosphorus_concentration_aquatic_sediment,Phosphorus Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,potassium_concentration_aquatic_sediment,Potassium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,sodium_concentration_aquatic_sediment,Sodium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,solids_percentage_aquatic_sediment,Solids Percentage; Aquatic Sediment,percent
+DP1.20194.001,tin_concentration_aquatic_sediment,Tin Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,titanium_concentration_aquatic_sediment,Titanium Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20194.001,zinc_concentration_aquatic_sediment,Zinc Concentration; Aquatic Sediment,milligramsPerKilogram
+DP1.20206.001,13c12c_isotope_ratio_surface_water,13C:12C Isotope Ratio; Surface Water,perMill
+DP1.20206.001,15n14n_isotope_ratio_surface_water,15N:14N Isotope Ratio; Surface Water,perMill
+DP1.20206.001,18o16o_isotope_ratio_surface_water,18O:16O Isotope Ratio; Surface Water,permill
+DP1.20206.001,2h1h_isotope_ratio_surface_water,2H:1H Isotope Ratio; Surface Water,permill
+DP1.20206.001,cn_ratio_surface_water,C:N Ratio; Surface Water,NA
+DP1.20206.001,carbon_percentage_surface_water,Carbon Percentage; Surface Water,percent
+DP1.20206.001,nitrogen_percentage_surface_water,Nitrogen Percentage; Surface Water,percent
+DP1.20217.001,temperature_groundwater_maximum,Temperature; Groundwater; Maximum,celsius
+DP1.20217.001,temperature_groundwater_mean,Temperature; Groundwater; Mean,celsius
+DP1.20217.001,temperature_groundwater_minimum,Temperature; Groundwater; Minimum,celsius
+DP1.20217.001,temperature_groundwater_temporal_variance,Temperature; Groundwater; Temporal Variance,celsiusSquared
+DP1.20219.001,abundance_zooplankton,Abundance; Zooplankton,numberPerLiter
+DP1.20219.001,pielous_evenness_zooplankton,Pielou's Evenness; Zooplankton,dimensionless
+DP1.20219.001,shannon_diversity_zooplankton,Shannon Diversity; Zooplankton,dimensionless
+DP1.20219.001,species_rarity_zooplankton,Species Rarity; Zooplankton,dimensionless
+DP1.20219.001,species_richness_zooplankton,Species Richness; Zooplankton,species
+DP1.20252.001,surface_water_euphotic_depth,Surface Water Euphotic Depth,meter
+DP1.20252.001,surface_water_secchi_depth,Surface Water Secchi Depth,meter
+DP1.20261.001,photosynthetically_active_radiation_incoming_below_water_maximum,Photosynthetically Active Radiation; Incoming; Below Water; Maximum,micromolesPerSquareMeterPerSecond
+DP1.20261.001,photosynthetically_active_radiation_incoming_below_water_mean,Photosynthetically Active Radiation; Incoming; Below Water; Mean,micromolesPerSquareMeterPerSecond
+DP1.20261.001,photosynthetically_active_radiation_incoming_below_water_minimum,Photosynthetically Active Radiation; Incoming; Below Water; Minimum,micromolesPerSquareMeterPerSecond
+DP1.20261.001,photosynthetically_active_radiation_incoming_below_water_temporal_variance,Photosynthetically Active Radiation; Incoming; Below Water; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
+DP1.20264.001,temperature_surface_water_elevational_variance,Temperature; Surface Water; Elevational Variance,celsiusSquared
+DP1.20264.001,temperature_surface_water_maximum,Temperature; Surface Water; Maximum,celsius
+DP1.20264.001,temperature_surface_water_mean,Temperature; Surface Water; Mean,celsius
+DP1.20264.001,temperature_surface_water_minimum,Temperature; Surface Water; Minimum,celsius
+DP1.20264.001,temperature_surface_water_temporal_variance,Temperature; Surface Water; Temporal Variance,celsiusSquared
+DP1.20271.001,humidity_maximum,Humidity; Maximum,percent
+DP1.20271.001,humidity_mean,Humidity; Mean,percent
+DP1.20271.001,humidity_minimum,Humidity; Minimum,percent
+DP1.20271.001,humidity_temporal_variance,Humidity; Temporal Variance,percentSquared
+DP1.20271.001,temperature_air_maximum,Temperature; Air; Maximum,celsius
+DP1.20271.001,temperature_air_mean,Temperature; Air; Mean,celsius
+DP1.20271.001,temperature_air_minimum,Temperature; Air; Minimum,celsius
+DP1.20271.001,temperature_air_temporal_variance,Temperature; Air; Temporal Variance,celsiusSquared
+DP1.20271.001,temperature_dew_or_frost_point_maximum,Temperature; Dew or Frost Point; Maximum,percent
+DP1.20271.001,temperature_dew_or_frost_point_mean,Temperature; Dew or Frost Point; Mean,percent
+DP1.20271.001,temperature_dew_or_frost_point_minimum,Temperature; Dew or Frost Point; Minimum,percent
+DP1.20271.001,temperature_dew_or_frost_point_temporal_variance,Temperature; Dew or Frost Point; Temporal Variance,percentSquared
+DP1.20275.001,aquatic_site_dominant_bank_angle,Aquatic Site Dominant Bank Angle,degrees
+DP1.20275.001,aquatic_site_human_influence_index,Aquatic Site Human Influence Index,number
+DP1.20275.001,riparian_bare_substrate_percent_dominance,Riparian Bare Substrate Percent Dominance,percent
+DP1.20275.001,riparian_canopy_percent_dominance,Riparian Canopy Percent Dominance,percent
+DP1.20275.001,riparian_ground_cover_percent_dominance,Riparian Ground Cover Percent Dominance,percent
+DP1.20275.001,riparian_standing_water_percent_dominance,Riparian Standing Water Percent Dominance,percent
+DP1.20275.001,riparian_understory_percent_dominance,Riparian Understory Percent Dominance,percent
+DP1.20276.001,18o16o_isotope_ratio_groundwater,18O:16O Isotope Ratio; Groundwater,permill
+DP1.20276.001,2h1h_isotope_ratio_groundwater,2H:1H Isotope Ratio; Groundwater,permill
+DP1.20277.001,abundance_microbial_bacteria_and_archaea_aquatic_biofilm,Abundance; Microbial Bacteria & Archaea; Aquatic Biofilm,numberPerNanogram
+DP1.20277.001,abundance_microbial_fungi_aquatic_biofilm,Abundance; Microbial Fungi; Aquatic Biofilm,numberPerNanogram
+DP1.20278.001,abundance_microbial_bacteria_and_archaea_surface_water,Abundance; Microbial Bacteria & Archaea; Surface Water,numberPerNanogram
+DP1.20278.001,abundance_microbial_fungi_surface_water,Abundance; Microbial Fungi; Surface Water,numberPerNanogram
+DP1.20288.001,chlorophyll_a_concentration_surface_water,Chlorophyll A Concentration; Surface Water,microgramsPerLiter
+DP1.20288.001,oxygen_percent_saturation_dissolved_surface_water,Oxygen Percent Saturation; Dissolved; Surface Water,percent
+DP1.20288.001,ph_surface_water,pH; Surface Water,pH
+DP1.20288.001,specific_conductivity_surface_water,Specific Conductivity; Surface Water,microsiemensPerCentimeter
+DP1.20288.001,surface_water_fluorescent_dissolved_organic_matter,Surface Water Fluorescent Dissolved Organic Matter,quinineSulfateUnit
+DP1.20288.001,surface_water_turbidity,Surface Water Turbidity,formazinNephelometricUnit
+DP4.00130.001,surface_water_volumetric_flow,Surface Water Volumetric Flow,liters
+DP4.00130.001,surface_water_volumetric_flow_rate,Surface Water Volumetric Flow Rate,litersPerSecond
+DP4.00132.001,relative_percent_groundcover_aquatic_plant,Relative Percent Groundcover; Aquatic Plant,percent

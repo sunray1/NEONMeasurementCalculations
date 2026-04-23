@@ -1,0 +1,24 @@
+{
+  "DP1.00001.001": {
+    "tables": ["2DWSD_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "windDirVariance": "float",
+      "windDirMean": "float",
+      "windSpeedVariance": "float",
+      "windSpeedMaximum": "float",
+      "windSpeedMean": "float",
+      "windSpeedMinimum": "float"
+    },
+    "location_mapping": {
+      "Terrestrial": "tower",
+      "Aquatic": "metStation"
+    }
+  },
+
+  "DP1.00002.001": {
+    "tables": ["temperature_air"],
+    "has_sensors": false
+  }
+}

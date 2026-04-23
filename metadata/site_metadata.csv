@@ -1,0 +1,82 @@
+site_id,site_state,domain_id,site_type,site_subtype,aquatic_type
+HOPB,MA,D01,Aquatic,Core,Wadeable Stream
+HARV,MA,D01,Terrestrial,Core,
+BART,NH,D01,Terrestrial,Gradient,
+POSE,VA,D02,Aquatic,Core,Wadeable Stream
+SCBI,VA,D02,Terrestrial,Core,
+LEWI,VA,D02,Aquatic,Gradient,Wadeable Stream
+BLAN,VA,D02,Terrestrial,Gradient,
+SERC,MD,D02,Terrestrial,Gradient,
+BARC,FL,D03,Aquatic,Core,Lake
+SUGG,FL,D03,Aquatic,Core,Lake
+OSBS,FL,D03,Terrestrial,Core,
+FLNT,GA,D03,Aquatic,Gradient,Non-wadeable River
+DSNY,FL,D03,Terrestrial,Gradient,
+JERC,GA,D03,Terrestrial,Gradient,
+CUPE,PR,D04,Aquatic,Core,Wadeable Stream
+GUAN,PR,D04,Terrestrial,Core,
+GUIL,PR,D04,Aquatic,Gradient,Wadeable Stream
+LAJA,PR,D04,Terrestrial,Gradient,
+CRAM,WI,D05,Aquatic,Core,Lake
+UNDE,MI,D05,Terrestrial,Core,
+LIRO,WI,D05,Aquatic,Gradient,Lake
+STEI,WI,D05,Terrestrial,Gradient,
+TREE,WI,D05,Terrestrial,Gradient,
+KING,KS,D06,Aquatic,Core,Wadeable Stream
+KONZ,KS,D06,Terrestrial,Core,
+MCDI,KS,D06,Aquatic,Gradient,Wadeable Stream
+KONA,KS,D06,Terrestrial,Gradient,
+UKFS,KS,D06,Terrestrial,Gradient,
+WALK,TN,D07,Aquatic,Core,Wadeable Stream
+ORNL,TN,D07,Terrestrial,Core,
+LECO,TN,D07,Aquatic,Gradient,Wadeable Stream
+GRSM,TN,D07,Terrestrial,Gradient,
+MLBS,VA,D07,Terrestrial,Gradient,
+MAYF,AL,D08,Aquatic,Core,Wadeable Stream
+TALL,AL,D08,Terrestrial,Core,
+BLWA,AL,D08,Aquatic,Gradient,Non-wadeable River
+TOMB,AL,D08,Aquatic,Gradient,Non-wadeable River
+DELA,AL,D08,Terrestrial,Gradient,
+LENO,AL,D08,Terrestrial,Gradient,
+PRPO,ND,D09,Aquatic,Core,Lake
+WOOD,ND,D09,Terrestrial,Core,
+PRLA,ND,D09,Aquatic,Gradient,Lake
+DCFS,ND,D09,Terrestrial,Gradient,
+NOGP,ND,D09,Terrestrial,Gradient,
+ARIK,CO,D10,Aquatic,Core,Wadeable Stream
+CPER,CO,D10,Terrestrial,Core,
+RMNP,CO,D10,Terrestrial,Gradient,
+STER,CO,D10,Terrestrial,Gradient,
+PRIN,TX,D11,Aquatic,Core,Wadeable Stream
+CLBJ,TX,D11,Terrestrial,Core,
+BLUE,OK,D11,Aquatic,Gradient,Non-wadeable River
+OAES,OK,D11,Terrestrial,Gradient,
+BLDE,WY,D12,Aquatic,Core,Wadeable Stream
+YELL,WY,D12,Terrestrial,Core,
+COMO,CO,D13,Aquatic,Core,Wadeable Stream
+NIWO,CO,D13,Terrestrial,Core,
+WLOU,CO,D13,Aquatic,Gradient,Wadeable Stream
+MOAB,UT,D13,Terrestrial,Gradient,
+SYCA,AZ,D14,Aquatic,Core,Wadeable Stream
+SRER,AZ,D14,Terrestrial,Core,
+JORN,NM,D14,Terrestrial,Gradient,
+REDB,UT,D15,Aquatic,Core,Wadeable Stream
+ONAQ,UT,D15,Terrestrial,Core,
+MART,WA,D16,Aquatic,Core,Wadeable Stream
+WREF,WA,D16,Terrestrial,Core,
+MCRA,OR,D16,Aquatic,Gradient,Wadeable Stream
+ABBY,WA,D16,Terrestrial,Gradient,
+TECR,CA,D17,Aquatic,Core,Wadeable Stream
+SJER,CA,D17,Terrestrial,Core,
+BIGC,CA,D17,Aquatic,Gradient,Wadeable Stream
+SOAP,CA,D17,Terrestrial,Gradient,
+TEAK,CA,D17,Terrestrial,Gradient,
+OKSR,AK,D18,Aquatic,Core,Wadeable Stream
+TOOL,AK,D18,Terrestrial,Core,
+TOOK,AK,D18,Aquatic,Gradient,Lake
+BARR,AK,D18,Terrestrial,Gradient,
+CARI,AK,D19,Aquatic,Core,Wadeable Stream
+BONA,AK,D19,Terrestrial,Core,
+DEJU,AK,D19,Terrestrial,Gradient,
+HEAL,AK,D19,Terrestrial,Gradient,
+PUUM,HI,D20,Terrestrial,Core,
