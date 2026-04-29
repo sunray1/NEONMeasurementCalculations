@@ -67,14 +67,14 @@ def run_job(con, dataproduct, site, year, months, measurement_names):
         tables = adapter.load(dataproduct, urls, site)
         df = tables["main"]
 
-        monthly_dfs.append(df)
+        if not df.empty:
+            monthly_dfs.append(df)
 
     if not monthly_dfs:
         return
 
     # combine all months
     full_df = pd.concat(monthly_dfs, ignore_index=True)
-    from datetime import date
 
     # ---------- run measurements ----------
     all_facts = []
