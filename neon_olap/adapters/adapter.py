@@ -25,7 +25,7 @@ class Adapter:
     
         # ---------- config ----------
         tables = cfg["tables"]
-        has_sensors = cfg["has_sensors"]
+        has_sensors = cfg.get("has_sensors", False)
         fields = cfg.get("fields")
     
         # handle fields as dict (col → type) or list
@@ -34,7 +34,7 @@ class Adapter:
         else:
             field_names = fields
     
-        field_sql = ", ".join(field_names) if field_names else "*"
+        field_sql = ", ".join(f'"{f}"' for f in field_names) if field_names else "*"
     
         # ---------- select URLs ----------
         selected = [
@@ -43,7 +43,7 @@ class Adapter:
         ]
     
         if not selected:
-            raise ValueError(f"No matching tables for {product}")
+            return {"main": pd.DataFrame()}
     
         con = duckdb.connect()
     
@@ -63,6 +63,14 @@ class Adapter:
                     """,
                     [horiz, vert, url],
                 ).df()
+                
+        # ---------- sensor location mapping ----------
+                sensor_map = cfg.get("sensor_location_mapping")
+                if sensor_map:
+                    sensor_key = f"{horiz}.{vert}"
+                    location_type = sensor_map.get(sensor_key)
+                    df["site_location"] = f"{site}_{location_type}"
+                    
     
                 dfs.append(df)
     
@@ -73,7 +81,7 @@ class Adapter:
                 f"SELECT {field_sql} FROM read_csv_auto(?)",
                 [selected],
             ).df()
-    
+
         # ---------- enforce types ----------
         if isinstance(fields, dict):
             for col, dtype in fields.items():
@@ -92,8 +100,6 @@ class Adapter:
     
         # ---------- resolve location ----------
         site_type = self.site_map.get(site)
-        if site_type is None:
-            raise ValueError(f"Missing site type for {site}")
     
         location_mapping = cfg.get("location_mapping", {})
         location_type = location_mapping.get(site_type)
