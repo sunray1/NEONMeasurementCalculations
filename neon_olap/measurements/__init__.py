@@ -4,6 +4,10 @@ from .barometric_pressure import *
 from .temperature_infrared import *
 from .precipitation_chem import *
 from .particulate_matter import *
+from .radiation import *
+from .par import *
+from .heat_flux_soil import *
+from .temperature_soil import *
 
 MEASUREMENTS = {
     # ---------- wind ----------    
@@ -37,7 +41,7 @@ MEASUREMENTS = {
     "temperature_infrared_temporal_variance": temperature_infrared_temporal_variance,
     "temperature_infrared_elevational_variance": temperature_infrared_elevational_variance,
     
-    # ---------- precicpitation chemistry ----------
+    # ---------- precipitation chemistry/isotopes ----------
     "ammonium_concentration_precipitation": ammonium_concentration_precipitation,
     "bromide_concentration_precipitation": bromide_concentration_precipitation,
     "calcium_concentration_precipitation": calcium_concentration_precipitation,
@@ -50,6 +54,8 @@ MEASUREMENTS = {
     "potassium_concentration_precipitation": potassium_concentration_precipitation,
     "sodium_concentration_precipitation": sodium_concentration_precipitation,
     "sulfate_concentration_precipitation": sulfate_concentration_precipitation,
+    "18o16o_isotope_ratio_precipitation": isotope_18o16o_ratio_precipitation,
+    "2h1h_isotope_ratio_precipitation": isotope_2h1h_ratio_precipitation,
     
     # ---------- particulate matter ----------
     "particulate_matter_le_1_um_concentration": particulate_matter_le_1_um_concentration,
@@ -57,4 +63,50 @@ MEASUREMENTS = {
     "particulate_matter_le_15_um_concentration": particulate_matter_le_15_um_concentration,
     "particulate_matter_le_25_um_concentration": particulate_matter_le_25_um_concentration,
     "particulate_matter_le_4_um_concentration": particulate_matter_le_4_um_concentration,
+    
+    # ---------- radiation ----------
+    "longwave_radiation_incoming_mean": longwave_radiation_incoming_mean,
+    "longwave_radiation_incoming_maximum": longwave_radiation_incoming_maximum,
+    "longwave_radiation_incoming_minimum": longwave_radiation_incoming_minimum,
+    "longwave_radiation_incoming_temporal_variance": longwave_radiation_incoming_temporal_variance,
+    
+    "longwave_radiation_outgoing_mean": longwave_radiation_outgoing_mean,
+    "longwave_radiation_outgoing_maximum": longwave_radiation_outgoing_maximum,
+    "longwave_radiation_outgoing_minimum": longwave_radiation_outgoing_minimum,
+    "longwave_radiation_outgoing_temporal_variance": longwave_radiation_outgoing_temporal_variance,
+    
+    "shortwave_radiation_incoming_mean": shortwave_radiation_incoming_mean,
+    "shortwave_radiation_incoming_maximum": shortwave_radiation_incoming_maximum,
+    "shortwave_radiation_incoming_minimum": shortwave_radiation_incoming_minimum,
+    "shortwave_radiation_incoming_temporal_variance": shortwave_radiation_incoming_temporal_variance,
+    
+    "shortwave_radiation_outgoing_mean": shortwave_radiation_outgoing_mean,
+    "shortwave_radiation_outgoing_maximum": shortwave_radiation_outgoing_maximum,
+    "shortwave_radiation_outgoing_minimum": shortwave_radiation_outgoing_minimum,
+    "shortwave_radiation_outgoing_temporal_variance": shortwave_radiation_outgoing_temporal_variance,
+    
+    # ---------- par ----------
+    "photosynthetically_active_radiation_incoming_mean": photosynthetically_active_radiation_incoming_mean,
+    "photosynthetically_active_radiation_incoming_maximum": photosynthetically_active_radiation_incoming_maximum,
+    "photosynthetically_active_radiation_incoming_minimum": photosynthetically_active_radiation_incoming_minimum,
+    "photosynthetically_active_radiation_incoming_temporal_variance": photosynthetically_active_radiation_incoming_temporal_variance,
+    "photosynthetically_active_radiation_incoming_elevational_variance": photosynthetically_active_radiation_incoming_elevational_variance,
+    
+    "photosynthetically_active_radiation_outgoing_mean": photosynthetically_active_radiation_outgoing_mean,
+    "photosynthetically_active_radiation_outgoing_maximum": photosynthetically_active_radiation_outgoing_maximum,
+    "photosynthetically_active_radiation_outgoing_minimum": photosynthetically_active_radiation_outgoing_minimum,
+    "photosynthetically_active_radiation_outgoing_temporal_variance": photosynthetically_active_radiation_outgoing_temporal_variance,
+    
+    # ---------- heat flux soil ----------
+    "heat_flux_soil_mean": heat_flux_soil_mean,
+    "heat_flux_soil_maximum": heat_flux_soil_maximum,
+    "heat_flux_soil_minimum": heat_flux_soil_minimum,
+    "heat_flux_soil_temporal_variance": heat_flux_soil_temporal_variance,
+    
+    # ---------- temperature soil ----------
+    "temperature_soil_mean": temperature_soil_mean,
+    "temperature_soil_maximum": temperature_soil_maximum,
+    "temperature_soil_minimum": temperature_soil_minimum,
+    "temperature_soil_temporal_variance": temperature_soil_temporal_variance,
+    "temperature_soil_elevational_variance": temperature_soil_elevational_variance,
 }

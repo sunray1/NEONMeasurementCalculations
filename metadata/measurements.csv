@@ -38,10 +38,6 @@ DP1.00017.001,particulate_matter_le_10_um_concentration,Particulate Matter ? 10 
 DP1.00017.001,particulate_matter_le_15_um_concentration,Particulate Matter ? 15 µm Concentration,milligramsPerCubicMeter
 DP1.00017.001,particulate_matter_le_25_um_concentration,Particulate Matter ? 2.5 µm Concentration,milligramsPerCubicMeter
 DP1.00017.001,particulate_matter_le_4_um_concentration,Particulate Matter ? 4 µm Concentration,milligramsPerCubicMeter
-DP1.00022.001,shortwave_radiation_incoming_maximum,Shortwave Radiation; Incoming; Maximum,wattsPerSquareMeter
-DP1.00022.001,shortwave_radiation_incoming_mean,Shortwave Radiation; Incoming; Mean,wattsPerSquareMeter
-DP1.00022.001,shortwave_radiation_incoming_minimum,Shortwave Radiation; Incoming; Minimum,wattsPerSquareMeter
-DP1.00022.001,shortwave_radiation_incoming_temporal_variance,Shortwave Radiation; Incoming; Temporal Variance,wattsPerSquareMeterSquared
 DP1.00023.001,longwave_radiation_incoming_maximum,Longwave Radiation; Incoming; Maximum,wattsPerSquareMeter
 DP1.00023.001,longwave_radiation_incoming_mean,Longwave Radiation; Incoming; Mean,wattsPerSquareMeter
 DP1.00023.001,longwave_radiation_incoming_minimum,Longwave Radiation; Incoming; Minimum,wattsPerSquareMeter
@@ -63,7 +59,6 @@ DP1.00024.001,photosynthetically_active_radiation_incoming_maximum,Photosyntheti
 DP1.00024.001,photosynthetically_active_radiation_incoming_mean,Photosynthetically Active Radiation; Incoming; Mean,micromolesPerSquareMeterPerSecond
 DP1.00024.001,photosynthetically_active_radiation_incoming_minimum,Photosynthetically Active Radiation; Incoming; Minimum,micromolesPerSquareMeterPerSecond
 DP1.00024.001,photosynthetically_active_radiation_incoming_temporal_variance,Photosynthetically Active Radiation; Incoming; Temporal Variance,micromolesPerSquareMeterPerSecondSquared
-DP1.00024.001,photosynthetically_active_radiation_outgoing_elevational_variance,Photosynthetically Active Radiation; Outgoing; Elevational Variance,micromolesPerSquareMeterPerSecondSquared
 DP1.00024.001,photosynthetically_active_radiation_outgoing_maximum,Photosynthetically Active Radiation; Outgoing; Maximum,micromolesPerSquareMeterPerSecond
 DP1.00024.001,photosynthetically_active_radiation_outgoing_mean,Photosynthetically Active Radiation; Outgoing; Mean,micromolesPerSquareMeterPerSecond
 DP1.00024.001,photosynthetically_active_radiation_outgoing_minimum,Photosynthetically Active Radiation; Outgoing; Minimum,micromolesPerSquareMeterPerSecond

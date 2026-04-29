@@ -11,9 +11,13 @@
       "windSpeedMean": "float",
       "windSpeedMinimum": "float"
     },
-    "location_mapping": {
-      "Terrestrial": "tower",
-      "Aquatic": "metStation"
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
     }
   },
 
@@ -27,9 +31,13 @@
       "tempSingleMean": "float",
       "tempSingleMinimum": "float"
     },
-    "location_mapping": {
-      "Terrestrial": "tower",
-      "Aquatic": "metStation"
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
     }
   },
   
@@ -43,9 +51,13 @@
       "staPresMean": "float",
       "staPresMinimum": "float"
     },
-    "location_mapping": {
-      "Terrestrial": "tower",
-      "Aquatic": "metStation"
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
     }
   },
   
@@ -59,12 +71,11 @@
       "bioTempMean": "float",
       "bioTempMinimum": "float"
     },
-    "sensor_location_mapping": {
-      "000.010": "tower",
-      "000.020": "tower",
-      "000.030": "tower",
-      "000.040": "tower",
-      "003.000": "soilArray"
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "vertical": "tower",
+        "horizontal": "soilArray"
+      }
     }
   },
   
@@ -86,9 +97,13 @@
       "precipSodium": "float",
       "precipSulfate": "float"
     },
-    "location_mapping": {
-      "Terrestrial": "tower",
-      "Aquatic": "metStation"
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
     }
   },
   
@@ -102,8 +117,136 @@
       "PM2.5Median": "float",
       "PM4Median": "float"
     },
-    "location_mapping": {
-      "Terrestrial": "tower"
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "tower"
+      }
+    }
+  },
+  
+  "DP1.00023.001": {
+    "tables": ["SLRNR_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "inLWMean": "float",
+      "inLWMinimum": "float",
+      "inLWMaximum": "float",
+      "inLWVariance": "float",
+      "outLWMean": "float",
+      "outLWMinimum": "float",
+      "outLWMaximum": "float",
+      "outLWVariance": "float",
+      "inSWMean": "float",
+      "inSWMinimum": "float",
+      "inSWMaximum": "float",
+      "inSWVariance": "float",
+      "outSWMean": "float",
+      "outSWMinimum": "float",
+      "outSWMaximum": "float",
+      "outSWVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "vertical": "tower",
+        "horizontal": "soilArray"
+      }
+    }
+  },
+  
+  "DP1.00024.001": {
+    "tables": ["PARPAR_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "PARMean": "float",
+      "PARMinimum": "float",
+      "PARMaximum": "float",
+      "PARVariance": "float",
+      "outPARMean": "float",
+      "outPARMinimum": "float",
+      "outPARMaximum": "float",
+      "outPARVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
+    }
+  },
+  
+  "DP1.00038.001": {
+    "tables": ["wdi_isoPerSample"],
+    "fields": {
+      "setDate": "datetime",
+      "collectDate": "datetime",
+      "d18OWater": "float",
+      "d2HWater": "float"
+    },
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "*": "tower"
+      }
+    }
+  },
+  
+  "DP1.00040.001": {
+    "tables": ["SHF_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "SHFMean": "float",
+      "SHFMinimum": "float",
+      "SHFMaximum": "float",
+      "SHFVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "soilArray"
+      }
+    }
+  },
+  
+  "DP1.00041.001": {
+    "tables": ["ST_30_minute"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "soilTempMean": "float",
+      "soilTempMinimum": "float",
+      "soilTempMaximum": "float",
+      "soilTempVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "soilArray"
+      }
+    }
+  },
+  
+  "DP1.00066.001": {
+    "tables": ["PARQL_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "linePARMean": "float",
+      "linePARMinimum": "float",
+      "linePARMaximum": "float",
+      "linePARVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "soilArray"
+      }
     }
   }
 }

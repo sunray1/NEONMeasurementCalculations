@@ -72,3 +72,9 @@ def sodium_concentration_precipitation(x):
 
 def sulfate_concentration_precipitation(x):
     return _expand_interval(x, "precipSulfate", "sulfate_concentration_precipitation")
+
+def isotope_18o16o_ratio_precipitation(x):
+    return _expand_interval(x, "d18OWater", "18o16o_isotope_ratio_precipitation")
+
+def isotope_2h1h_ratio_precipitation(x):
+    return _expand_interval(x, "d2HWater", "2h1h_isotope_ratio_precipitation")
