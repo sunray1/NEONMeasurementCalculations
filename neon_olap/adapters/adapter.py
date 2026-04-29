@@ -27,12 +27,7 @@ class Adapter:
         tables = cfg["tables"]
         has_sensors = cfg.get("has_sensors", False)
         fields = cfg.get("fields")
-    
-        # handle fields as dict (col → type) or list
-        if isinstance(fields, dict):
-            field_names = list(fields.keys())
-        else:
-            field_names = fields
+        field_names = list(fields.keys())
     
         field_sql = ", ".join(f'"{f}"' for f in field_names) if field_names else "*"
     
@@ -64,14 +59,6 @@ class Adapter:
                     [horiz, vert, url],
                 ).df()
                 
-        # ---------- sensor location mapping ----------
-                sensor_map = cfg.get("sensor_location_mapping")
-                if sensor_map:
-                    sensor_key = f"{horiz}.{vert}"
-                    location_type = sensor_map.get(sensor_key)
-                    df["site_location"] = f"{site}_{location_type}"
-                    
-    
                 dfs.append(df)
     
             combined = pd.concat(dfs, ignore_index=True)
@@ -81,6 +68,22 @@ class Adapter:
                 f"SELECT {field_sql} FROM read_csv_auto(?)",
                 [selected],
             ).df()
+
+        # ---------- location mapping ----------
+        rules = cfg.get("sensor_location_rules")
+
+        if rules:
+            site_type = self.site_map.get(site)
+            site_rules = rules.get(site_type)
+        
+            if site_rules:
+                if "*" in site_rules:
+                    location_type = site_rules["*"]
+                    combined["site_location"] = f"{site}_{site_rules['*']}"
+                else:
+                    mask = combined["sensor_vertical"] != "000"
+                    combined.loc[mask, "site_location"] = f"{site}_{site_rules.get('vertical')}"
+                    combined.loc[~mask, "site_location"] = f"{site}_{site_rules.get('horizontal')}"
 
         # ---------- enforce types ----------
         if isinstance(fields, dict):
@@ -92,25 +95,11 @@ class Adapter:
                     combined[col] = pd.to_numeric(combined[col], errors="coerce")
     
                 elif dtype == "datetime":
-                    combined[col] = pd.to_datetime(combined[col], utc=True, errors="coerce")
+                    combined[col] = pd.to_datetime(combined[col], utc=True, errors="coerce").dt.normalize()
     
         # ---------- add date ----------
         if "startDateTime" in combined.columns:
             combined["date"] = combined["startDateTime"].dt.date
-    
-        # ---------- resolve location ----------
-        site_type = self.site_map.get(site)
-    
-        location_mapping = cfg.get("location_mapping", {})
-        location_type = location_mapping.get(site_type)
-    
-        if location_mapping and location_type is None:
-            raise ValueError(
-                f"No location mapping for site_type={site_type} in {product}"
-            )
-    
-        if location_type:
-            combined["site_location"] = f"{site}_{location_type}"
     
         return {"main": combined}
 
