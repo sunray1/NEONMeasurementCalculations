@@ -18,7 +18,92 @@
   },
 
   "DP1.00002.001": {
-    "tables": ["temperature_air"],
-    "has_sensors": false
+    "tables": ["SAAT_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "tempSingleVariance": "float",
+      "tempSingleMaximum": "float",
+      "tempSingleMean": "float",
+      "tempSingleMinimum": "float"
+    },
+    "location_mapping": {
+      "Terrestrial": "tower",
+      "Aquatic": "metStation"
+    }
+  },
+  
+  "DP1.00004.001": {
+    "tables": ["BP_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "staPresVariance": "float",
+      "staPresMaximum": "float",
+      "staPresMean": "float",
+      "staPresMinimum": "float"
+    },
+    "location_mapping": {
+      "Terrestrial": "tower",
+      "Aquatic": "metStation"
+    }
+  },
+  
+  "DP1.00005.001": {
+    "tables": ["IRBT_30_minute"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "bioTempVariance": "float",
+      "bioTempMaximum": "float",
+      "bioTempMean": "float",
+      "bioTempMinimum": "float"
+    },
+    "sensor_location_mapping": {
+      "000.010": "tower",
+      "000.020": "tower",
+      "000.030": "tower",
+      "000.040": "tower",
+      "003.000": "soilArray"
+    }
+  },
+  
+  "DP1.00013.001": {
+    "tables": ["wdp_chemLab"],
+    "fields": {
+      "setDate": "datetime",
+      "collectDate": "datetime",
+      "precipAmmonium": "float",
+      "precipBromide": "float",
+      "precipCalcium": "float",
+      "precipChloride": "float",
+      "precipConductivity": "float",
+      "precipMagnesium": "float",
+      "precipNitrate": "float",
+      "pH": "float",
+      "precipPhosphate": "float",
+      "precipPotassium": "float",
+      "precipSodium": "float",
+      "precipSulfate": "float"
+    },
+    "location_mapping": {
+      "Terrestrial": "tower",
+      "Aquatic": "metStation"
+    }
+  },
+  
+  "DP1.00017.001": {
+    "tables": ["dpsd_60_minutes"],
+    "fields": {
+      "startDateTime": "datetime",
+      "PM1Median": "float",
+      "PM10Median": "float",
+      "PM15Median": "float",
+      "PM2.5Median": "float",
+      "PM4Median": "float"
+    },
+    "location_mapping": {
+      "Terrestrial": "tower"
+    }
   }
 }
