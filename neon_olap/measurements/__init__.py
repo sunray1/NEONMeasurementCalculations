@@ -1,112 +1,14 @@
-from .wind import *
-from .temperature_air import *
-from .barometric_pressure import *
-from .temperature_infrared import *
-from .precipitation_chem import *
-from .particulate_matter import *
-from .radiation import *
-from .par import *
-from .heat_flux_soil import *
-from .temperature_soil import *
+import pkgutil
+import importlib
+import inspect
 
-MEASUREMENTS = {
-    # ---------- wind ----------    
-    "wind_direction_mean": wind_direction_mean,
-    "wind_direction_temporal_variance": wind_direction_temporal_variance,
-    "wind_direction_elevational_variance": wind_direction_elevational_variance,
+from . import __path__ 
 
-    "wind_speed_mean": wind_speed_mean,
-    "wind_speed_maximum": wind_speed_maximum,
-    "wind_speed_minimum": wind_speed_minimum,
-    "wind_speed_temporal_variance": wind_speed_temporal_variance,
-    "wind_speed_elevational_variance": wind_speed_elevational_variance,
+MEASUREMENTS = {}
 
-    # ---------- temperature_air ----------
-    "temperature_air_mean": temperature_air_mean,
-    "temperature_air_maximum": temperature_air_maximum,
-    "temperature_air_minimum": temperature_air_minimum,
-    "temperature_air_temporal_variance": temperature_air_temporal_variance,
-    "temperature_air_elevational_variance": temperature_air_elevational_variance,
-    
-    # ---------- barometric_pressure ----------
-    "barometric_pressure_mean": barometric_pressure_mean,
-    "barometric_pressure_maximum": barometric_pressure_maximum,
-    "barometric_pressure_minimum": barometric_pressure_minimum,
-    "barometric_pressure_temporal_variance": barometric_pressure_temporal_variance,
-    
-    # ---------- infrared temperature ----------
-    "temperature_infrared_mean": temperature_infrared_mean,
-    "temperature_infrared_maximum": temperature_infrared_maximum,
-    "temperature_infrared_minimum": temperature_infrared_minimum,
-    "temperature_infrared_temporal_variance": temperature_infrared_temporal_variance,
-    "temperature_infrared_elevational_variance": temperature_infrared_elevational_variance,
-    
-    # ---------- precipitation chemistry/isotopes ----------
-    "ammonium_concentration_precipitation": ammonium_concentration_precipitation,
-    "bromide_concentration_precipitation": bromide_concentration_precipitation,
-    "calcium_concentration_precipitation": calcium_concentration_precipitation,
-    "chloride_concentration_precipitation": chloride_concentration_precipitation,
-    "conductivity_precipitation": conductivity_precipitation,
-    "magnesium_concentration_precipitation": magnesium_concentration_precipitation,
-    "nitrate_concentration_precipitation": nitrate_concentration_precipitation,
-    "ph_precipitation": ph_precipitation,
-    "phosphate_concentration_precipitation": phosphate_concentration_precipitation,
-    "potassium_concentration_precipitation": potassium_concentration_precipitation,
-    "sodium_concentration_precipitation": sodium_concentration_precipitation,
-    "sulfate_concentration_precipitation": sulfate_concentration_precipitation,
-    "18o16o_isotope_ratio_precipitation": isotope_18o16o_ratio_precipitation,
-    "2h1h_isotope_ratio_precipitation": isotope_2h1h_ratio_precipitation,
-    
-    # ---------- particulate matter ----------
-    "particulate_matter_le_1_um_concentration": particulate_matter_le_1_um_concentration,
-    "particulate_matter_le_10_um_concentration": particulate_matter_le_10_um_concentration,
-    "particulate_matter_le_15_um_concentration": particulate_matter_le_15_um_concentration,
-    "particulate_matter_le_25_um_concentration": particulate_matter_le_25_um_concentration,
-    "particulate_matter_le_4_um_concentration": particulate_matter_le_4_um_concentration,
-    
-    # ---------- radiation ----------
-    "longwave_radiation_incoming_mean": longwave_radiation_incoming_mean,
-    "longwave_radiation_incoming_maximum": longwave_radiation_incoming_maximum,
-    "longwave_radiation_incoming_minimum": longwave_radiation_incoming_minimum,
-    "longwave_radiation_incoming_temporal_variance": longwave_radiation_incoming_temporal_variance,
-    
-    "longwave_radiation_outgoing_mean": longwave_radiation_outgoing_mean,
-    "longwave_radiation_outgoing_maximum": longwave_radiation_outgoing_maximum,
-    "longwave_radiation_outgoing_minimum": longwave_radiation_outgoing_minimum,
-    "longwave_radiation_outgoing_temporal_variance": longwave_radiation_outgoing_temporal_variance,
-    
-    "shortwave_radiation_incoming_mean": shortwave_radiation_incoming_mean,
-    "shortwave_radiation_incoming_maximum": shortwave_radiation_incoming_maximum,
-    "shortwave_radiation_incoming_minimum": shortwave_radiation_incoming_minimum,
-    "shortwave_radiation_incoming_temporal_variance": shortwave_radiation_incoming_temporal_variance,
-    
-    "shortwave_radiation_outgoing_mean": shortwave_radiation_outgoing_mean,
-    "shortwave_radiation_outgoing_maximum": shortwave_radiation_outgoing_maximum,
-    "shortwave_radiation_outgoing_minimum": shortwave_radiation_outgoing_minimum,
-    "shortwave_radiation_outgoing_temporal_variance": shortwave_radiation_outgoing_temporal_variance,
-    
-    # ---------- par ----------
-    "photosynthetically_active_radiation_incoming_mean": photosynthetically_active_radiation_incoming_mean,
-    "photosynthetically_active_radiation_incoming_maximum": photosynthetically_active_radiation_incoming_maximum,
-    "photosynthetically_active_radiation_incoming_minimum": photosynthetically_active_radiation_incoming_minimum,
-    "photosynthetically_active_radiation_incoming_temporal_variance": photosynthetically_active_radiation_incoming_temporal_variance,
-    "photosynthetically_active_radiation_incoming_elevational_variance": photosynthetically_active_radiation_incoming_elevational_variance,
-    
-    "photosynthetically_active_radiation_outgoing_mean": photosynthetically_active_radiation_outgoing_mean,
-    "photosynthetically_active_radiation_outgoing_maximum": photosynthetically_active_radiation_outgoing_maximum,
-    "photosynthetically_active_radiation_outgoing_minimum": photosynthetically_active_radiation_outgoing_minimum,
-    "photosynthetically_active_radiation_outgoing_temporal_variance": photosynthetically_active_radiation_outgoing_temporal_variance,
-    
-    # ---------- heat flux soil ----------
-    "heat_flux_soil_mean": heat_flux_soil_mean,
-    "heat_flux_soil_maximum": heat_flux_soil_maximum,
-    "heat_flux_soil_minimum": heat_flux_soil_minimum,
-    "heat_flux_soil_temporal_variance": heat_flux_soil_temporal_variance,
-    
-    # ---------- temperature soil ----------
-    "temperature_soil_mean": temperature_soil_mean,
-    "temperature_soil_maximum": temperature_soil_maximum,
-    "temperature_soil_minimum": temperature_soil_minimum,
-    "temperature_soil_temporal_variance": temperature_soil_temporal_variance,
-    "temperature_soil_elevational_variance": temperature_soil_elevational_variance,
-}
+for _, module_name, _ in pkgutil.iter_modules(__path__):
+    module = importlib.import_module(f"{__name__}.{module_name}")
+
+    for name, func in inspect.getmembers(module, inspect.isfunction):
+        if not name.startswith("_"):
+            MEASUREMENTS[name] = func
