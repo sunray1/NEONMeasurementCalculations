@@ -248,5 +248,26 @@
         "*": "soilArray"
       }
     }
+  },
+  
+  "DP1.00094.001": {
+    "tables": ["SWS_30_minute"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "VSICMean": "float",
+      "VSICMinimum": "float",
+      "VSICMaximum": "float",
+      "VSICVariance": "float",
+      "VSWCMean": "float",
+      "VSWCMinimum": "float",
+      "VSWCMaximum": "float",
+      "VSWCVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "soilArray"
+      }
+    }
   }
 }
