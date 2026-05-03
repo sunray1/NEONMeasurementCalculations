@@ -269,5 +269,60 @@
         "*": "soilArray"
       }
     }
+  },
+  
+  "DP1.00095.001": {
+    "tables": ["SCO2C_30_minute"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "soilCO2concentrationMean": "float",
+      "soilCO2concentrationMinimum": "float",
+      "soilCO2concentrationMaximum": "float",
+      "soilCO2concentrationVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {
+        "*": "soilArray"
+      }
+    }
+  },
+  
+  "DP1.00098.001": {
+    "tables": ["RH_30min"],
+    "has_sensors": true,
+    "fields": {
+      "startDateTime": "datetime",
+      "RHMean": "float",
+      "RHMinimum": "float",
+      "RHMaximum": "float",
+      "RHVariance": "float",
+      "dewTempMean": "float",
+      "dewTempMinimum": "float",
+      "dewTempMaximum": "float",
+      "dewTempVariance": "float"
+    },
+    "sensor_location_rules": {
+      "Aquatic": {
+        "*": "metStation"
+      },
+      "Terrestrial": {
+        "vertical": "tower",
+        "horizontal": "soilArray"
+      }
+    }
+  },
+  
+  "DP1.10003.001": {
+    "tables": ["brd_countdata"],
+    "fields": {
+      "startDate": "datetime",
+      "plotID": "string",
+      "taxonID": "string",
+      "clusterSize": "int"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {}
+    }
   }
 }

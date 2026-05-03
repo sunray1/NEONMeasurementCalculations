@@ -93,6 +93,9 @@ class Adapter:
     
                 if dtype == "float":
                     combined[col] = pd.to_numeric(combined[col], errors="coerce")
+                    
+                elif dtype == "int":
+                    combined[col] = pd.to_numeric(combined[col], errors="coerce").astype("Int64")
     
                 elif dtype == "datetime":
                     combined[col] = pd.to_datetime(combined[col], utc=True, errors="coerce").dt.normalize()

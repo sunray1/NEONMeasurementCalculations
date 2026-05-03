@@ -104,7 +104,6 @@ DP1.00098.001,temperature_dew_or_frost_point_temporal_variance,Temperature; Dew 
 DP1.10003.001,abundance_bird,Abundance; Bird,number
 DP1.10003.001,pielous_evenness_bird,Pielou's Evenness; Bird,dimensionless
 DP1.10003.001,shannon_diversity_bird,Shannon Diversity; Bird,dimensionless
-DP1.10003.001,species_rarity_bird,Species Rarity; Bird,dimensionless
 DP1.10003.001,species_richness_bird,Species Richness; Bird,species
 DP1.10010.001,abundance_downed_log,Abundance; Downed Log,number
 DP1.10010.001,downed_log_estimated_volume,Downed Log Estimated Volume,metersCubed
