@@ -340,5 +340,20 @@
     "sensor_location_rules": {
       "Terrestrial": {}
     }
+  },
+  
+  "DP1.10022.001": {
+    "tables": ["bet_sorting"],
+    "fields": {
+      "setDate": "datetime",
+      "collectDate": "datetime",
+      "plotID": "string",
+      "taxonID": "string",
+      "sampleType": "string",
+      "individualCount": "int"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {}
+    }
   }
 }

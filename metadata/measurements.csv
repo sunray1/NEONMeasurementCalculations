@@ -113,7 +113,6 @@ DP1.10014.001 | DP1.10010.001,biomass_density_downed_log,Biomass Density; Downed
 DP1.10022.001,abundance_ground_beetle,Abundance; Ground Beetle,number
 DP1.10022.001,pielous_evenness_ground_beetle,Pielou's Evenness; Ground Beetle,dimensionless
 DP1.10022.001,shannon_diversity_ground_beetle,Shannon Diversity; Ground Beetle,dimensionless
-DP1.10022.001,species_rarity_ground_beetle,Species Rarity; Ground Beetle,dimensionless
 DP1.10022.001,species_richness_ground_beetle,Species Richness; Ground Beetle,species
 DP1.10023.001,biomass_density_herbaceous_vegetation,Biomass Density; Herbaceous Vegetation,gramPerMetersSquared
 DP1.10023.001,mass_herbaceous_vegetation,Mass; Herbaceous Vegetation,gram

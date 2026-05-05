@@ -81,6 +81,7 @@ def shannon_diversity_bird(x):
     df = _bird_diversity_components(x)
 
     df["value"] = df["H"]
+    df.loc[np.isclose(df["value"], 0), "value"] = 0
     df["measurement_id"] = "shannon_diversity_bird"
 
     return df.rename(columns={"startDate": "date"})[
@@ -93,7 +94,7 @@ def pielous_evenness_bird(x):
     df = _bird_diversity_components(x)
 
     df["value"] = df["H"] / np.log(df["S"])
-    df.loc[df["S"] <= 1, "value"] = np.nan
+    df = df.dropna(subset=["value"])
     df["measurement_id"] = "pielous_evenness_bird"
 
     return df.rename(columns={"startDate": "date"})[
