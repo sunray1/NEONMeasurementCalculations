@@ -324,5 +324,21 @@
     "sensor_location_rules": {
       "Terrestrial": {}
     }
+  },
+  
+  "DP1.10010.001": {
+    "tables": ["cdw_fieldtally"],
+    "fields": {
+      "date": "datetime",
+      "plotID": "string",
+      "equivalentLogDiameter": "float",
+      "logLength": "float",
+      "volumeFactor": "int",
+      "decayClass": "string",
+      "targetTaxaPresent": "string"
+    },
+    "sensor_location_rules": {
+      "Terrestrial": {}
+    }
   }
 }

@@ -107,8 +107,6 @@ DP1.10003.001,shannon_diversity_bird,Shannon Diversity; Bird,dimensionless
 DP1.10003.001,species_richness_bird,Species Richness; Bird,species
 DP1.10010.001,abundance_downed_log,Abundance; Downed Log,number
 DP1.10010.001,downed_log_estimated_volume,Downed Log Estimated Volume,metersCubed
-DP1.10010.001,downed_log_mean_char_depth,Downed Log Mean Char Depth,centimeters?
-DP1.10010.001,downed_log_mean_char_extent,Downed Log Mean Char Extent,percent
 DP1.10010.001,downed_log_mean_decay_class,Downed Log Mean Decay Class,dimensionless
 DP1.10014.001,downed_log_mean_density,Downed Log Mean Density,gramsPerCubicCentimeter
 DP1.10014.001 | DP1.10010.001,biomass_density_downed_log,Biomass Density; Downed Log,kilogramsPerMetersSquared
