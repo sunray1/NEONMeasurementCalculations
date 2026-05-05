@@ -91,11 +91,46 @@ def run_job(con, dataproduct, site, year, months, measurement_names):
 
     combined_df = pd.concat(all_facts, ignore_index=True)
 
+    # ---------- expand measurements ----------
+    import calendar
+    
+    start_date = f"{year}-{min(months):02d}-01"
+    
+    last_month = max(months)
+    last_day = calendar.monthrange(year, last_month)[1]
+    
+    end_date = f"{year}-{last_month:02d}-{last_day:02d}"
+    
+    combined_df = expand_and_fill(combined_df, start_date, end_date)
+
     # ---------- single insert ----------
     insert_dates(con, combined_df)
     insert_locations(con, combined_df, site)
     insert_measurements(con, combined_df, dataproduct)
     insert_facts(con, combined_df)
+    
+def expand_and_fill(df, start_date, end_date):
+
+    full_idx = pd.date_range(start_date, end_date, freq="D")
+
+    dfs = []
+
+    for (mid, site), g in df.groupby(["measurement_id", "site_location"]):
+
+        g = g.sort_values("date").copy()
+
+        g = g.set_index("date").reindex(full_idx)
+
+        g["measurement_id"] = mid
+        g["site_location"] = site
+
+        g["value"] = g["value"].ffill().bfill()
+
+        g = g.reset_index().rename(columns={"index": "date"})
+
+        dfs.append(g)
+
+    return pd.concat(dfs, ignore_index=True)
 
 def main():
     args = parse_args()
